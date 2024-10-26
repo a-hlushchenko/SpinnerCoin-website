@@ -1,5 +1,5 @@
 <template>
-  <GeneralSection id="about">
+  <GeneralSection id="about" class="about-wrapper">
     <GeneralFlex column center>
       <GeneralContainer class="about-top">
         <GeneralFlex column>
@@ -24,6 +24,9 @@
 </template>
 
 <style scoped>
+.about-wrapper {
+  overflow: hidden;
+}
 .about-top {
   max-width: 820px;
 }
