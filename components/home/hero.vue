@@ -54,11 +54,13 @@
             </GeneralFlex>
           </GeneralFlex>
         </GeneralFlex>
-        <Transition appear name="spinners">
-          <div v-if="true" class="hero-spinners">
-            <IconsHomeHeroSpinners width="500" class="hero-spinners" />
-          </div>
-        </Transition>
+        <ClientOnly>
+          <Transition appear name="spinners">
+            <div v-if="true" class="hero-spinners">
+              <IconsHomeHeroSpinners width="500" class="hero-spinners" />
+            </div>
+          </Transition>
+        </ClientOnly>
       </div>
     </GeneralContainer>
   </GeneralSection>

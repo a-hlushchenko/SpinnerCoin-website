@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import "swiper/css";
 import "./assets/css/index.css";
 </script>
 

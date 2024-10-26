@@ -4,12 +4,14 @@
       <GeneralContainer class="about-top">
         <GeneralFlex column>
           <GeneralTitle center>
-            Our game connects real-life sports activities with
+            No teachers to take it away – spin, level up, and unlock an NFT at
+            level 12!
           </GeneralTitle>
           <GeneralText center>
-            Walk more to enter various Battle-games with your CATthletes within
-            Walken® Platform. The Platform is designed in the way that allows
-            players to benefit financially by using all in-game mechanics.
+            Spin more to unlock new challenges and upgrade your spinner.
+            Progress through the game to level up and convert your spinner into
+            an NFT at level 12. Participate in events and competitions to earn
+            rewards and enjoy the full experience of the SpinnerCoin App
           </GeneralText>
         </GeneralFlex>
       </GeneralContainer>

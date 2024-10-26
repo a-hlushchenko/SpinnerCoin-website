@@ -13,10 +13,8 @@ onMounted(async () => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          console.log("add");
           tokenVisible.value = true;
         } else {
-          console.log("false");
           tokenVisible.value = false;
         }
       });

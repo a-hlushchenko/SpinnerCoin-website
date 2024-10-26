@@ -1,6 +1,6 @@
 <template>
   <GeneralSection id="roadmap">
-    <GeneralContainer>
+    <GeneralContainer class="roadmap">
       <GeneralFlex big column center>
         <GeneralTitle>Roadmap</GeneralTitle>
         <img class="roadmap-img" src="/img/home/roadmap.svg" alt="roadmap" />
