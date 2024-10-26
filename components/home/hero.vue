@@ -54,8 +54,11 @@
             </GeneralFlex>
           </GeneralFlex>
         </GeneralFlex>
-
-        <IconsHomeHeroSpinners width="500" class="hero-spinners" />
+        <Transition appear name="spinners">
+          <div v-if="true" class="hero-spinners">
+            <IconsHomeHeroSpinners width="500" class="hero-spinners" />
+          </div>
+        </Transition>
       </div>
     </GeneralContainer>
   </GeneralSection>
@@ -81,6 +84,7 @@
 .hero-spinners {
   justify-self: end;
   height: fit-content;
+  transition: transform 1s;
 }
 
 .info-box {
@@ -95,6 +99,11 @@
   &:hover {
     background-color: #323232;
   }
+}
+
+.spinners-enter-from,
+.spinners-leave-to {
+  transform: translate(200px, 200px);
 }
 
 @media (max-width: 1170px) {
