@@ -29,7 +29,10 @@ function menuHandleClick(event: MouseEvent) {
 watch(menuOpened, (newVal) => {
   if (newVal) {
     document.body.style.overflow = "hidden";
-    document.body.style.paddingRight = "6px";
+
+    if (window.innerWidth > 1024) {
+      document.body.style.paddingRight = "6px";
+    }
 
     setTimeout(() => {
       document.addEventListener("click", menuHandleClick);
