@@ -31,6 +31,10 @@
 .about-img {
   object-position: center;
   object-fit: cover;
+
+  &.mob {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
