@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <strong class="title" :class="{ big, center }"><slot></slot></strong>
+  <strong class="title" :class="{ big, center, mini }"><slot></slot></strong>
 </template>
 
 <style scoped>
@@ -41,6 +41,7 @@ const props = defineProps<{
 
   .mini {
     font-size: 20px;
+    text-align: left;
   }
 }
 </style>
