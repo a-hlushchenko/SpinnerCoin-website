@@ -48,8 +48,8 @@ onUnmounted(() => {
 
         <GeneralFlex column center>
           <GeneralTitle>SPN</GeneralTitle>
-          <GeneralText>
-            SPN is a Token used for operating in the SpinnerCoin NFT game. SPN
+          <GeneralText center>
+            SPN is a Token used for operating in the SpinnerCoin NFT game.<br />SPN
             is short for SpinnerCoin and can be either bought on a
             cryptocurrency exchange or earned by using SpinnerCoin.
           </GeneralText>

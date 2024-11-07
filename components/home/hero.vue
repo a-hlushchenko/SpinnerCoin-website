@@ -23,7 +23,11 @@
           <GeneralFlex center>
             <GeneralFlex column small>
               <GeneralText>Powered by</GeneralText>
-              <NuxtLink to="https://ton.org" target="_blank">
+              <NuxtLink
+                to="https://ton.org"
+                target="_blank"
+                aria-label="TON website"
+              >
                 <div class="info-box">
                   <IconsTon />
                 </div>
@@ -33,13 +37,18 @@
             <GeneralFlex column small>
               <GeneralText>Our Socials</GeneralText>
               <div class="info-box">
-                <NuxtLink to="https://t.me/spinnercoin" target="_blank">
+                <NuxtLink
+                  to="https://t.me/spinnercoin"
+                  target="_blank"
+                  aria-label="Telegram"
+                >
                   <IconsTgmono class="link-icon" />
                 </NuxtLink>
                 <NuxtLink
                   class="link-icon"
                   to="https://x.com/spinnercoin"
                   target="_blank"
+                  aria-label="X"
                 >
                   <IconsXmono />
                 </NuxtLink>
@@ -47,6 +56,7 @@
                   class="link-icon"
                   to="https://youtube.com/@spinnercoin"
                   target="_blank"
+                  aria-label="Youtube"
                 >
                   <IconsYoutubemono />
                 </NuxtLink>

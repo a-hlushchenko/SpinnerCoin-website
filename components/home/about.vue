@@ -10,12 +10,12 @@
           <GeneralText center>
             Spin more to unlock new challenges and upgrade your spinner.
             Progress through the game to level up and convert your spinner into
-            an NFT at level 12. Participate in events and competitions to earn
-            rewards and enjoy the full experience of the SpinnerCoin App
+            an NFT at level 12.<br />Participate in events and competitions to
+            earn rewards and enjoy the full experience of the SpinnerCoin App
           </GeneralText>
         </GeneralFlex>
       </GeneralContainer>
-      <img class="about-img" src="/img/home/about-img.svg" alt="Spinners"" />
+      <img class="about-img" src="/img/home/about-img.svg" alt="Spinners" />
       <img
         class="about-img mob"
         src="/img/home/about-img-mob.svg"

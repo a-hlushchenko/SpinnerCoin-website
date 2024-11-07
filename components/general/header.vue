@@ -50,7 +50,9 @@ watch(menuOpened, (newVal) => {
   <div class="header-wrapper" ref="header">
     <GeneralContainer>
       <GeneralFlex space center>
-        <NuxtLink to="/" class="title-icon"><IconsTitle /></NuxtLink>
+        <NuxtLink to="/" class="title-icon" aria-label="Home page"
+          ><IconsTitle
+        /></NuxtLink>
 
         <GeneralFlex
           center
@@ -75,7 +77,7 @@ watch(menuOpened, (newVal) => {
               target="_blank"
             >
               <GeneralFlex mini>
-                <IconsSpn width="20" />
+                <IconsSpn width="20" height="20" />
                 Buy NFT Spinners
               </GeneralFlex>
             </NuxtLink>

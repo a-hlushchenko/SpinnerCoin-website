@@ -1,7 +1,7 @@
 <template>
   <GeneralContainer>
     <GeneralFlex space center class="footer">
-      <NuxtLink to="/">
+      <NuxtLink to="/" aria-label="Home page">
         <IconsTitle />
       </NuxtLink>
       <GeneralFlex mini class="buttons">

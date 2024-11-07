@@ -45,6 +45,7 @@
                 class="link"
                 to="https://t.me/spinnercoin"
                 target="_blank"
+                aria-label="telegram"
                 >t.me/SpinnerCoin.
               </NuxtLink>
               <br />Win exciting rewards like spinners, NFTs, and SPN tokens.
@@ -93,7 +94,8 @@
 }
 
 .link {
-  color: #34aadf;
+  color: #00ffa8;
+  font-weight: 700;
 }
 
 @media (max-width: 1024px) {

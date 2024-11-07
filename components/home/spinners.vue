@@ -35,15 +35,15 @@ const slides = ref([
         :loop="true"
       >
         <swiper-slide class="slide" v-for="slide in slides">
-          <img class="slide" :src="slide" v-if="true" />
+          <img class="slide" :src="slide" v-if="true" alt="Spinner" />
         </swiper-slide>
         <swiper-slide class="slide" v-for="slide in slides">
-          <img :src="slide" v-if="true" />
+          <img :src="slide" v-if="true" alt="Spinner" />
         </swiper-slide>
       </swiper>
 
-      <img src="/img/home/phone.png" class="phone" />
-      <img src="/img/home/phone-bg.png" class="phone-bg" />
+      <img src="/img/home/phone.png" class="phone" alt="phone" />
+      <img src="/img/home/phone-bg.png" class="phone-bg" alt="phone" />
     </div>
   </GeneralSection>
 </template>
