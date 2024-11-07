@@ -98,7 +98,7 @@ watch(menuOpened, (newVal) => {
             target="_blank"
           >
             <GeneralFlex mini>
-              <IconsSpn width="20" />
+              <IconsSpn width="20" height="20" />
               Buy NFT Spinners
             </GeneralFlex>
           </NuxtLink>

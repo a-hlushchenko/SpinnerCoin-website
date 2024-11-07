@@ -39,7 +39,12 @@ onUnmounted(() => {
       <GeneralFlex column center big>
         <div class="token" ref="token">
           <Transition name="token">
-            <IconsSpn class="icon" width="150" v-if="tokenVisible" />
+            <IconsSpn
+              class="icon"
+              width="150"
+              height="150"
+              v-if="tokenVisible"
+            />
           </Transition>
           <Transition name="token-bg">
             <IconsHomeSpnbg class="token-bg" v-if="tokenVisible" />
