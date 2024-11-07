@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  devServer: {
+    port: 7001,
+  },
   compatibilityDate: "2024-10-24",
   ssr: true,
   app: {
