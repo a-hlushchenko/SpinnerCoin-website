@@ -20,7 +20,7 @@
             <GeneralBox>
               <IconsTgmono green class="icon" />
               <GeneralFlex space center>
-                <span class="box-title">Telegran channel</span>
+                <span class="box-title">Telegram channel</span>
                 <IconsArrow />
               </GeneralFlex>
             </GeneralBox>
@@ -29,7 +29,7 @@
             <GeneralBox>
               <IconsTgmono green class="icon" />
               <GeneralFlex space center>
-                <span class="box-title">Telegran chat</span>
+                <span class="box-title">Telegram chat</span>
                 <IconsArrow />
               </GeneralFlex>
             </GeneralBox>

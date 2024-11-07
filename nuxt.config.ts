@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   },
   compatibilityDate: "2024-10-24",
   ssr: true,
+  nitro: {
+    routeRules: {
+      "/**": { headers: { "Cache-Control": "public" } },
+    },
+  },
   app: {
     head: {
       htmlAttrs: {
