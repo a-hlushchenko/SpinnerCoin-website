@@ -45,9 +45,11 @@
                 class="link"
                 to="https://t.me/spinnercoin"
                 target="_blank"
-                >t.me/SpinnerCoin</NuxtLink
-              >. Win exciting rewards like spinners, NFTs, and SPN tokens. Don’t
-              miss your chance to spin, compete, and collect unique prizes!
+                >t.me/SpinnerCoin.
+              </NuxtLink>
+              <br />Win exciting rewards like spinners, NFTs, and SPN tokens.
+              Don’t miss your chance to spin, compete, and collect unique
+              prizes!
             </GeneralText>
           </div>
         </div>
