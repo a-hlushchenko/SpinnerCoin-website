@@ -49,9 +49,9 @@ onUnmounted(() => {
         <GeneralFlex column center>
           <GeneralTitle>SPN</GeneralTitle>
           <GeneralText>
-            WLKN is a Token used for operating in the Walken NFT game. WLKN is
-            short for Walken and can be either bought on a cryptocurrency
-            exchange or earned by using Walken.
+            SPN is a Token used for operating in the SpinnerCoin NFT game. SPN
+            is short for SpinnerCoin and can be either bought on a
+            cryptocurrency exchange or earned by using SpinnerCoin.
           </GeneralText>
         </GeneralFlex>
 

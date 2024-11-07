@@ -6,13 +6,13 @@
       <div space class="hero">
         <GeneralFlex column big class="hero-content">
           <GeneralFlex column class="hero-text">
-            <GeneralTitle big
-              >SpinnerCoin, NFT collection, Blockchain
-            </GeneralTitle>
+            <GeneralTitle big>
+              Spinners WEB3,<br />TON, Telegram MiniApps</GeneralTitle
+            >
 
             <GeneralText>
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-              ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              Our game combines fidget spinners (which everyone knows about),
+              the fastest TON blockchain, and very cool Telegram MiniApps
             </GeneralText>
           </GeneralFlex>
           <GeneralFlex center>
@@ -23,7 +23,7 @@
           <GeneralFlex center>
             <GeneralFlex column small>
               <GeneralText>Powered by</GeneralText>
-              <NuxtLink to="https://ton.com" target="_blank">
+              <NuxtLink to="https://ton.org" target="_blank">
                 <div class="info-box">
                   <IconsTon />
                 </div>

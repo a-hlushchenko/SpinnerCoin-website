@@ -40,9 +40,14 @@
             <GeneralTitle mini>Join Competitions on Telegram!</GeneralTitle>
             <GeneralText>
               Participate in exclusive contests on our official Telegram
-              channel: t.me/SpinnerCoin. Win exciting rewards like spinners,
-              NFTs, and SPN tokens. Don’t miss your chance to spin, compete, and
-              collect unique prizes!
+              channel:
+              <NuxtLink
+                class="link"
+                to="https://t.me/spinnercoin"
+                target="_blank"
+                >t.me/SpinnerCoin</NuxtLink
+              >. Win exciting rewards like spinners, NFTs, and SPN tokens. Don’t
+              miss your chance to spin, compete, and collect unique prizes!
             </GeneralText>
           </div>
         </div>
@@ -83,6 +88,10 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.link {
+  color: #34aadf;
 }
 
 @media (max-width: 1024px) {

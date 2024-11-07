@@ -6,7 +6,7 @@
       </NuxtLink>
       <GeneralFlex mini class="buttons">
         <NuxtLink
-          to="https:/t.me/spinnercoin_bot/app?startapp=utm_webfooter"
+          to="https://t.me/spinnercoin_bot/app?startapp=utm_webfooter"
           class="button"
           target="_blank"
         >
@@ -16,7 +16,7 @@
           </GeneralFlex>
         </NuxtLink>
         <NuxtLink
-          to="https:/getgems.io/spinners"
+          to="https://getgems.io/spinners"
           class="button"
           target="_blank"
         >

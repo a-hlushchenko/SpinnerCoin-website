@@ -15,10 +15,10 @@ const slides = ref([
   <GeneralSection id="spinners" class="spinners">
     <GeneralContainer class="spinners-text">
       <GeneralFlex column center>
-        <GeneralTitle>Spinners WEB3</GeneralTitle>
+        <GeneralTitle>Buy & Sell items on Getgems</GeneralTitle>
         <GeneralText center>
-          Buy some really cool NFT items to boost your CATthlete. Or sell
-          something you don’t need anymore (CATthletes or items).
+          Buy some really cool NFT spinners. Or sell if you're already own NFT
+          spinners
         </GeneralText>
       </GeneralFlex>
     </GeneralContainer>
