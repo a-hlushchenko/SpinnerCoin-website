@@ -11,8 +11,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      script: [{ src: "/datafeeds/udf/dist/bundle.js" }],
       htmlAttrs: {
-        lang: "en", // Задайте тут потрібну мову, наприклад 'uk' для української
+        lang: "en",
       },
       title: "SpinnerCoin",
       meta: [
